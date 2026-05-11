@@ -1,0 +1,8 @@
+ip,timestamp,request,status,response_time
+192.168.1.1,2023-10-27 10:00:00,"GET /home",200,15.2
+10.45.12.2,2023-10-27 10:00:01,"POST /login",201,45.9
+192.168.1.3,2023-10-27 10:00:02,"GET /api/data",500,120.5
+192.168.1.1,2023-10-27 10:00:03,"GET /images/logo.png",200,5.0
+BAD_DATA,not-a-date,"MALFORMED_REQUEST",999,unknown
+10.45.12.2,2023-10-27 10:00:05,"GET /about",200,30.1
+172.16.0.1,2023-10-27 10:00:05,"GET /home",200,12.7
